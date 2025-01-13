@@ -1,0 +1,52 @@
+{
+  "name": "vscode-theme-zenith",
+  "version": "0.0.1",
+  "displayName": "Zenith",
+  "description": "A refined theme that balances minimal design with a clear visual hierarchy.",
+  "publisher": "britown",
+  "author": {
+    "name": "Brian Kuzmanoski"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenith",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "zenith-seti",
+        "label": "Zenith",
+        "path": "./themes/file-icon-theme.json"
+      }
+    ]
+  },
+  "homepage": "https://github.com/bkuzmanoski/vscode-theme-zenith/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/bkuzmanoski/vscode-theme-zenith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bkuzmanoski/vscode-theme-zenith.git"
+  },
+  "keywords": [
+    "dark theme",
+    "minimal",
+    "professional",
+    "modern",
+    "zenwritten"
+  ],
+  "icon": "icon.png",
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1"
+  }
+}
