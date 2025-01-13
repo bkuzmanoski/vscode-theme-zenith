@@ -15,7 +15,7 @@ Zenith uses subtle contrasts and thoughtful color choices reduce eye strain and 
 
 ## Installation
 
-1. Install the theme from the Visual Studio Marketplace ([direct link](https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-zenith))
+1. Install Zenith Theme from the Visual Studio Marketplace ([direct link](https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-zenith))
 2. Go to `View → Command Palette`, type `Color Theme` and press enter, then select `Zenith`
 3. Go to `View → Command Palette`, type `File Icon Theme` and press enter, then select `Zenith`
 4. (Optional) Apply the suggested User Settings below
