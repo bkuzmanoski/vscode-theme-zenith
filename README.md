@@ -2,9 +2,8 @@
   <img src="icon.png" alt="Zenith Icon" width="128">
   <h1>Zenith Theme for VS Code</h1>
   <p><strong>A refined blue-gray theme that balances minimal design with a clear visual hierarchy.</strong></p>
+  <br>
 </div>
-
----
 
 Zenith uses subtle contrasts and thoughtful color choices reduce eye strain and maintain readability for long coding sessions. It enables semantic syntax highlighting and also defines colors for Error Lens if you use it.
 

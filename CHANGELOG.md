@@ -7,3 +7,7 @@
 ## [0.0.2]
 
 - Minor color tweak
+
+## [0.0.3]
+
+- Update README
