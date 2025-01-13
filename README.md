@@ -5,7 +5,7 @@
   <br>
 </div>
 
-Zenith uses subtle contrasts and thoughtful color choices reduce eye strain and maintain readability for long coding sessions. It enables semantic syntax highlighting and also defines colors for Error Lens if you use it.
+Zenith uses subtle contrasts and thoughtful color choices reduce eye strain and maintain readability for long coding sessions.
 
 ![Zenith Screenshot](screenshot.png)
 

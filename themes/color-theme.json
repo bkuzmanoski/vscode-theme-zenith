@@ -1,31 +1,5 @@
 {
   "name": "Zenith",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "namespace": "#65b8c1",
-    "type": "#65b8c1",
-    "class": "#65b8c1",
-    "enum": "#65b8c1",
-    "interface": "#65b8c1",
-    "struct": "#65b8c1",
-    "typeParameter": "#65b8c1",
-    "parameter": "#b4bbc2",
-    "variable": "#b4bbc2",
-    "property": "#b4bbc2",
-    "enumMember": "#d68c67",
-    "decorator": "#61abda",
-    "event": "#61abda",
-    "function": "#61abda",
-    "method": "#61abda",
-    "macro": "#cf86c1",
-    "label": "#cf86c1",
-    "comment": "#637079",
-    "string": "#64b280",
-    "keyword": "#cf86c1",
-    "number": "#d68c67",
-    "regexp": "#65b8c1",
-    "operator": "#839099"
-  },
   "tokenColors": [
     {
       "scope": [],
@@ -83,6 +57,23 @@
       ],
       "settings": {
         "foreground": "#61abda"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.variable.property",
+        "meta.object-literal.key",
+        "meta.object.member",
+        "meta.property.object",
+        "support.type.property.name",
+        "support.variable.property",
+        "variable.object.property",
+        "variable.other.member",
+        "variable.other.object.property",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#9d86ce"
       }
     },
     {
@@ -174,7 +165,7 @@
       }
     },
     {
-      "scope": ["support.type.property-name"],
+      "scope": ["entity.name.type.module", "support.type.property-name"],
       "settings": {
         "foreground": "#b4bbc2"
       }
