@@ -10,7 +10,7 @@
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.lineHeight": 1.1,
 
-  // Aesthetics (Part 1)
+  // Aesthetics (Part 1: Look and Feel)
   "editor.cursorWidth": 1,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.roundedSelection": false,
