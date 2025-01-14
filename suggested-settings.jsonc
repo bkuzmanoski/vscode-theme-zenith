@@ -31,18 +31,18 @@
   "errorLens.padding": "1px 5px",
 
   // Other
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.editor.titleScrollbarSizing": "large",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+
+  "chat.commandCenter.enabled": false,
+
   "breadcrumbs.enabled": false,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.minimap.enabled": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.cursorWidth": 1,
   "editor.roundedSelection": false,
-
-  "chat.commandCenter.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.startupEditor": "none",
+  "workbench.editor.titleScrollbarSizing": "large",
 
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.minimumContrastRatio": 1,
