@@ -36,7 +36,7 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 
 **Colors**
 
-Tne down the use of colors in Explorer and Editor:
+Tone down the use of colors in Explorer and Editor:
 
 ```json
 "explorer.decorations.colors": false,
