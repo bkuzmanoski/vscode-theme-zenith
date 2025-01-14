@@ -110,7 +110,6 @@
         "constant.character",
         "markup.raw",
         "markup.inline.raw",
-        "punctuation.definition.raw",
         "meta.preprocessor.string"
       ],
       "settings": {

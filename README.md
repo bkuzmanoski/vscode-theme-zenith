@@ -31,7 +31,7 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
 "terminal.integrated.fontSize": 13,
 "terminal.integrated.lineHeight": 1.1,
-"terminal.integrated.fontLigatures": true, // If you want ligatures
+"terminal.integrated.fontLigatures": true // If you want ligatures
 ```
 
 **Colors**
@@ -42,7 +42,7 @@ Tne down the use of colors in Explorer and Editor:
 "explorer.decorations.colors": false,
 "outline.problems.colors": false,
 "workbench.editor.decorations.colors": false,
-"editor.bracketPairColorization.enabled": false, // If you prefer more minimal syntax highlighting
+"editor.bracketPairColorization.enabled": false // If you prefer more minimal syntax highlighting
 ```
 
 **Layout**
@@ -55,7 +55,7 @@ Align icons in Explorer and hide guides/decorations in Terminal:
 "workbench.tree.renderIndentGuides": "none",
 "editor.renderLineHighlight": "all",
 "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
-"terminal.integrated.shellIntegration.showCommandGuide": false,
+"terminal.integrated.shellIntegration.showCommandGuide": false
 ```
 
 **Error Lens**
@@ -100,21 +100,39 @@ See the above settings and other theme-related tweaks I use in [suggested-settin
     {
       "scope": [
         "comment",
-        "punctuation.definition.comment",
-        "keyword",
-        "storage",
-        "variable.language",
-        "keyword.operator.new",
         "keyword.operator.expression",
-        "support.other",
-        "punctuation.definition.keyword",
-        "meta.selector.pseudo-class",
-        "meta.selector.pseudo-element",
+        "keyword.operator.new",
+        "keyword",
         "meta.selector.pseudo-class punctuation.definition.entity",
+        "meta.selector.pseudo-class",
         "meta.selector.pseudo-element punctuation.definition.entity"
+        "meta.selector.pseudo-element",
+        "punctuation.definition.comment",
+        "punctuation.definition.keyword",
+        "storage",
+        "support.other",
+        "variable.language"
       ],
       "settings": {
         "fontStyle": ""
+      }
+    }
+  ]
+}
+```
+
+**Highlight quotation marks and backticks surrounding strings/string literals in green**
+
+```json
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": [
+        "punctuation.definition.string",
+        "punctuation.definition.raw"
+      ],
+      "settings": {
+        "foreground": "#64b280"
       }
     }
   ]
