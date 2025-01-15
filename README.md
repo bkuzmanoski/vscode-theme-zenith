@@ -27,7 +27,7 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 "editor.fontLigatures": true, // If you want ligatures
 "editor.fontSize": 13,
 
-"terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+"terminal.integrated.fontFamily": "'JetBrains Mono'",
 "terminal.integrated.fontLigatures": true // If you want ligatures
 "terminal.integrated.fontSize": 13,
 "terminal.integrated.lineHeight": 1.1,
