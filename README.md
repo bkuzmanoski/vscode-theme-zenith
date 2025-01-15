@@ -24,14 +24,13 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 
 ```json
 "editor.fontFamily": "'JetBrains Mono'",
-"editor.fontSize": 13,
-"editor.letterSpacing": 0.1,
 "editor.fontLigatures": true, // If you want ligatures
+"editor.fontSize": 13,
 
 "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+"terminal.integrated.fontLigatures": true // If you want ligatures
 "terminal.integrated.fontSize": 13,
 "terminal.integrated.lineHeight": 1.1,
-"terminal.integrated.fontLigatures": true // If you want ligatures
 ```
 
 **Colors**
@@ -89,35 +88,6 @@ See the above settings and other theme-related tweaks I use in [suggested-settin
 "workbench.colorCustomizations": {
     "editorBracketMatch.border": "#00000000",
     "editorBracketMatch.background": "#ccebff28" // Highlight their background color instead
-}
-```
-
-**Remove italics in syntax highlighting**
-
-```json
-"editor.tokenColorCustomizations": {
-  "textMateRules": [
-    {
-      "scope": [
-        "comment",
-        "keyword.operator.expression",
-        "keyword.operator.new",
-        "keyword",
-        "meta.selector.pseudo-class punctuation.definition.entity",
-        "meta.selector.pseudo-class",
-        "meta.selector.pseudo-element punctuation.definition.entity"
-        "meta.selector.pseudo-element",
-        "punctuation.definition.comment",
-        "punctuation.definition.keyword",
-        "storage",
-        "support.other",
-        "variable.language"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    }
-  ]
 }
 ```
 

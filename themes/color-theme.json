@@ -43,8 +43,7 @@
         "punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#cf86c1",
-        "fontStyle": "italic"
+        "foreground": "#cf86c1"
       }
     },
     {
@@ -131,8 +130,7 @@
     {
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#b4bbc2",
-        "fontStyle": ""
+        "foreground": "#b4bbc2"
       }
     },
     {
@@ -196,8 +194,7 @@
         "meta.selector.pseudo-element punctuation.definition.entity"
       ],
       "settings": {
-        "foreground": "#839099",
-        "fontStyle": "italic"
+        "foreground": "#839099"
       }
     },
     {
@@ -209,8 +206,7 @@
     {
       "scope": ["keyword.other.unit"],
       "settings": {
-        "foreground": "#d68c67",
-        "fontStyle": ""
+        "foreground": "#d68c67"
       }
     },
     {
