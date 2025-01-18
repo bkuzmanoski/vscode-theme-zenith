@@ -1,7 +1,7 @@
 <div align="center">
   <img src="icon.png" alt="Zenith Icon" width="128">
   <h1>Zenith Theme for VS Code</h1>
-  <p><strong>A refined blue-gray theme that balances minimal design with a clear visual hierarchy.</strong></p>
+  <p><strong>A refined theme that balances minimal design with a clear visual hierarchy.</strong></p>
   <br>
 </div>
 
@@ -47,15 +47,17 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 "editor.renderLineHighlight": "all",
 ```
 
-**Error Lens**
+**Extensions**
 
-Apply these you use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) extension:
+Apply these you use the following extensions:
 
 ```json
 "errorLens.borderRadius": "4px",
 "errorLens.margin": "2ch",
 "errorLens.messageBackgroundMode": "message",
-"errorLens.padding": "1px 5px"
+"errorLens.padding": "1px 5px",
+
+"gitlens.currentLine.fontStyle": "italic",
 ```
 
 **Other**
@@ -69,7 +71,7 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 ```json
 "workbench.colorCustomizations": {
     "tab.activeBorderTop": "#61abda"
-}
+},
 ```
 
 **Remove the border around matching bracket pairs**
@@ -78,7 +80,7 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 "workbench.colorCustomizations": {
     "editorBracketMatch.border": "#00000000",
     "editorBracketMatch.background": "#ccebff28" // Highlight their background color instead
-}
+},
 ```
 
 **Highlight quotation marks/backticks surrounding strings in green**
@@ -96,7 +98,7 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
       }
     }
   ]
-}
+},
 ```
 
 ## Acknowledgments
@@ -104,10 +106,10 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 - The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
 - The File Icon Theme uses the Seti UI icons ([jesseweed/seti-ui](https://github.com/jesseweed/seti-ui))
 
-**Bonus**:
+## Bonus themes
 
-- Matching Ghostty theme: [ghostty-theme-zenith.md](https://gist.github.com/bkuzmanoski/b0b310a77a8e9b9891f84af2712ad87b)
-- Matching micro (CLI editor) theme: [micro-theme-zenith.md](https://gist.github.com/bkuzmanoski/592c0cd8ba082e842e65630c44290ae7)
+- Ghostty: [ghostty-theme-zenith.md](https://gist.github.com/bkuzmanoski/b0b310a77a8e9b9891f84af2712ad87b)
+- micro (CLI editor): [micro-theme-zenith.md](https://gist.github.com/bkuzmanoski/592c0cd8ba082e842e65630c44290ae7)
 
 ---
 

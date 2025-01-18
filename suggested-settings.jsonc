@@ -20,11 +20,13 @@
   "workbench.tree.renderIndentGuides": "none",
   "editor.renderLineHighlight": "all",
 
-  // Error Lens
+  // Extensions
   "errorLens.borderRadius": "4px",
-  "errorLens.margin": "2ch",
+  "errorLens.margin": "6ch",
   "errorLens.messageBackgroundMode": "message",
   "errorLens.padding": "1px 5px",
+
+  "gitlens.currentLine.fontStyle": "italic",
 
   // Other (pick and choose)
   "workbench.layoutControl.enabled": false,

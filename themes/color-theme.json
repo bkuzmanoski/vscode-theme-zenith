@@ -501,6 +501,7 @@
     "gitDecoration.stageModifiedResourceForeground": "#61abda",
     "gitDecoration.submoduleResourceForeground": "#839099",
     "gitDecoration.untrackedResourceForeground": "#64b280",
+    "gitlens.trailingLineForegroundColor": "#637079",
     "icon.foreground": "#839099",
     "inlineChat.background": "#242a2e",
     "inlineChat.border": "#383f43",
