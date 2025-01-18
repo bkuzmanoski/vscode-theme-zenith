@@ -5,8 +5,6 @@
   <br>
 </div>
 
-Zenith uses subtle contrasts and thoughtful color choices reduce eye strain and maintain readability for long coding sessions.
-
 ![Zenith Screenshot](screenshot.png)
 
 ## Installation
@@ -33,33 +31,25 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 "terminal.integrated.lineHeight": 1.1,
 ```
 
-**Colors**
-
-Tone down the use of colors in Explorer and Editor:
+**UI Elements**
 
 ```json
+// Tone down the use of colors in Explorer and Editor:
 "explorer.decorations.colors": false,
 "outline.problems.colors": false,
 "workbench.editor.decorations.colors": false,
-"editor.bracketPairColorization.enabled": false // If you prefer more minimal syntax highlighting
-```
+"editor.bracketPairColorization.enabled": false
 
-**Layout**
-
-Align icons in Explorer and hide guides/decorations in Terminal:
-
-```json
-"workbench.sash.size": 2,
+// Align icons in Explorer, adjust width of resize indicators, extend editor line highlight into gutter
 "workbench.tree.indent": 18,
 "workbench.tree.renderIndentGuides": "none",
+"workbench.sash.size": 2,
 "editor.renderLineHighlight": "all",
-"terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
-"terminal.integrated.shellIntegration.showCommandGuide": false
 ```
 
 **Error Lens**
 
-If you use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) extension:
+Apply these you use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) extension:
 
 ```json
 "errorLens.borderRadius": "4px",
@@ -70,7 +60,7 @@ If you use the [Error Lens](https://marketplace.visualstudio.com/items?itemName=
 
 **Other**
 
-See the above settings and other theme-related tweaks I use in [suggested-settings.jsonc](https://github.com/bkuzmanoski/vscode-theme-zenith/blob/main/suggested-settings.jsonc).
+All of the theme-related and layout tweaks I use can be found in [suggested-settings.jsonc](https://github.com/bkuzmanoski/vscode-theme-zenith/blob/main/suggested-settings.jsonc) for easy copy-and-pasting.
 
 ## Customization
 
@@ -91,7 +81,7 @@ See the above settings and other theme-related tweaks I use in [suggested-settin
 }
 ```
 
-**Highlight quotation marks and backticks surrounding strings/string literals in green**
+**Highlight quotation marks/backticks surrounding strings in green**
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -109,16 +99,15 @@ See the above settings and other theme-related tweaks I use in [suggested-settin
 }
 ```
 
-**Other**
-
-See the VS Code [theme customization guide](https://code.visualstudio.com/api/references/theme-color) for all of the possible overrides.
-
 ## Acknowledgments
 
-- The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
+- The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
 - The File Icon Theme uses the Seti UI icons ([jesseweed/seti-ui](https://github.com/jesseweed/seti-ui))
 
-**Bonus**: If you use Ghostty and want a matching theme, look here: [ghostty-theme-zenith.md](https://gist.github.com/bkuzmanoski/b0b310a77a8e9b9891f84af2712ad87b).
+**Bonus**:
+
+- Matching Ghostty theme: [ghostty-theme-zenith.md](https://gist.github.com/bkuzmanoski/b0b310a77a8e9b9891f84af2712ad87b)
+- Matching micro (CLI editor) theme: [micro-theme-zenith.md](https://gist.github.com/bkuzmanoski/592c0cd8ba082e842e65630c44290ae7)
 
 ---
 
