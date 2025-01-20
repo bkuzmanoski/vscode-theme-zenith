@@ -31,7 +31,7 @@ The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono
 "terminal.integrated.lineHeight": 1.1,
 ```
 
-**UI Elements**
+**UI elements**
 
 ```json
 // Tone down the use of colors in Explorer and Editor:
@@ -101,15 +101,14 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 },
 ```
 
+## Zenith themes for other tools
+
+- See [Zenith Themes](https://gist.github.com/bkuzmanoski/aa4090b5e56ece0d5d2748d61097ea2c)
+
 ## Acknowledgments
 
 - The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
 - The File Icon Theme uses the Seti UI icons ([jesseweed/seti-ui](https://github.com/jesseweed/seti-ui))
-
-## Bonus themes
-
-- Ghostty: [ghostty-theme-zenith.md](https://gist.github.com/bkuzmanoski/b0b310a77a8e9b9891f84af2712ad87b)
-- micro (CLI editor): [micro-theme-zenith.md](https://gist.github.com/bkuzmanoski/592c0cd8ba082e842e65630c44290ae7)
 
 ---
 
