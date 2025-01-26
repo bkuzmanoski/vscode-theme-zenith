@@ -2,7 +2,7 @@
   "name": "vscode-theme-zenith",
   "version": "0.0.12",
   "displayName": "Zenith Theme",
-  "description": "A refined theme that balances minimal design with a clear visual hierarchy.",
+  "description": "A refined, distraction-free theme with cohesive colors and complete UI coverage.",
   "publisher": "britown",
   "author": {
     "name": "Brian Kuzmanoski"
@@ -39,13 +39,13 @@
     "url": "https://github.com/bkuzmanoski/vscode-theme-zenith.git"
   },
   "keywords": [
-    "dark theme",
+    "clean",
+    "consistent",
     "minimal",
-    "professional",
-    "modern",
+    "subtle",
     "zenwritten"
   ],
-  "icon": "icon.png",
+  "icon": "./assets/icon.png",
   "devDependencies": {
     "@vscode/vsce": "^3.2.1"
   }

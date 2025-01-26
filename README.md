@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="icon.png" alt="Zenith Icon" width="128">
+  <img src="assets/icon.png" alt="Zenith Icon" width="128">
   <h1>Zenith Theme for VS Code</h1>
-  <p><strong>A refined theme that balances minimal design with a clear visual hierarchy.</strong></p>
+  <p><strong>A refined, distraction-free theme with cohesive colors and complete UI coverage.</strong></p>
   <br>
 </div>
 
-![Zenith Screenshot](screenshot.png)
+![Zenith Screenshot](assets/screenshot.png)
 
 ## Installation
 
@@ -21,11 +21,11 @@
 The font in the screenshot is [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with these these settings:
 
 ```json
-"editor.fontFamily": "'JetBrains Mono'",
+"editor.fontFamily": "JetBrains Mono",
 "editor.fontLigatures": true, // If you want ligatures
 "editor.fontSize": 13,
 
-"terminal.integrated.fontFamily": "'JetBrains Mono'",
+"terminal.integrated.fontFamily": "JetBrains Mono",
 "terminal.integrated.fontLigatures": true // If you want ligatures
 "terminal.integrated.fontSize": 13,
 "terminal.integrated.lineHeight": 1.1,
@@ -55,14 +55,14 @@ Apply these you use the following extensions:
 "errorLens.borderRadius": "4px",
 "errorLens.margin": "2ch",
 "errorLens.messageBackgroundMode": "message",
-"errorLens.padding": "1px 5px",
+"errorLens.padding": "1px 4px",
 
 "gitlens.currentLine.fontStyle": "italic",
 ```
 
 **Other**
 
-All of the theme-related and layout tweaks I use can be found in [suggested-settings.jsonc](https://github.com/bkuzmanoski/vscode-theme-zenith/blob/main/suggested-settings.jsonc) for easy copy-and-pasting.
+All of the theme-related and layout tweaks I use can be found in [suggested-settings.json](https://github.com/bkuzmanoski/vscode-theme-zenith/blob/main/suggested-settings.json) for easy copy-and-pasting.
 
 ## Customization
 
@@ -101,14 +101,15 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 },
 ```
 
-## Zenith themes for other tools
+## Zenith theme for other apps
 
-- See [Zenith Themes](https://gist.github.com/bkuzmanoski/aa4090b5e56ece0d5d2748d61097ea2c)
+See my [dotfiles repo](https://github.com/bkuzmanoski/dotfiles) for matching themes for **bat**, **btop**, **eza**, **Ghostty**, **micro**, and **zsh-syntax-highlighting**.
 
 ## Acknowledgments
 
-- The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim)
-- The File Icon Theme uses the Seti UI icons ([jesseweed/seti-ui](https://github.com/jesseweed/seti-ui))
+The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim).
+
+The file icon theme uses the Seti UI icons ([jesseweed/seti-ui](https://github.com/jesseweed/seti-ui)).
 
 ---
 
