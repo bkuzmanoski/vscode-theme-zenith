@@ -52,23 +52,27 @@
 
   // Customizations
   "workbench.colorCustomizations": {
-    "tab.activeBorderTop": "#61abda", // Add a blue accent to the top active editor tabs
+    "[Zenith]": {
+      "tab.activeBorderTop": "#61abda", // Add a blue accent to the top active editor tabs
 
-    "editorBracketMatch.border": "#00000000", // Remove the border around matching bracket pairs
-    "editorBracketMatch.background": "#ccebff28" // ...highlight their background color instead
+      "editorBracketMatch.border": "#00000000", // Remove the border around matching bracket pairs
+      "editorBracketMatch.background": "#ccebff28" // ...highlight their background color instead
+    }
   },
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      // Highlight quotation marks/backticks surrounding strings in green
-      {
-        "scope": [
-          "punctuation.definition.string",
-          "punctuation.definition.raw"
-        ],
-        "settings": {
-          "foreground": "#64b280"
+    "[Zenith]": {
+      "textMateRules": [
+        // Highlight quotation marks/backticks surrounding strings in green
+        {
+          "scope": [
+            "punctuation.definition.string",
+            "punctuation.definition.raw"
+          ],
+          "settings": {
+            "foreground": "#64b280"
+          }
         }
-      }
-    ]
+      ]
+    }
   }
 }

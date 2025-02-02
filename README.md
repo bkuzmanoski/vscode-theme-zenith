@@ -1,7 +1,11 @@
 <div align="center">
-  <img src="assets/icon.png" alt="Zenith Icon" width="128">
+  <img src="assets/icon-transparent.png" alt="Zenith Icon" width="128">
   <h1>Zenith Theme for VS Code</h1>
-  <p><strong>A refined, distraction-free theme with cohesive colors and complete UI coverage.</strong></p>
+  <p>
+    <strong>A refined dark theme with cohesive colors and complete UI coverage.</strong>
+    <br>
+    Check out the ⭐ light theme ⭐ here: <a href="https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-meridian">Meridian Theme for VS Code</a>.
+  </p>
   <br>
 </div>
 
@@ -70,7 +74,9 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 
 ```json
 "workbench.colorCustomizations": {
+  "[Zenith]": {
     "tab.activeBorderTop": "#61abda"
+  }
 },
 ```
 
@@ -78,8 +84,10 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 
 ```json
 "workbench.colorCustomizations": {
+  "[Zenith]": {
     "editorBracketMatch.border": "#00000000",
     "editorBracketMatch.background": "#ccebff28" // Highlight their background color instead
+  }
 },
 ```
 
@@ -87,23 +95,25 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 
 ```json
 "editor.tokenColorCustomizations": {
-  "textMateRules": [
-    {
-      "scope": [
-        "punctuation.definition.string",
-        "punctuation.definition.raw"
-      ],
-      "settings": {
-        "foreground": "#64b280"
+  "[Zenith]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition.string",
+          "punctuation.definition.raw"
+        ],
+        "settings": {
+          "foreground": "#64b280"
+        }
       }
-    }
-  ]
+    ]
+  }
 },
 ```
 
 ## Zenith theme for other apps
 
-See my [dotfiles repo](https://github.com/bkuzmanoski/dotfiles) for matching themes for **bat**, **btop**, **eza**, **Ghostty**, **micro**, and **zsh-syntax-highlighting**.
+Check out the matching [Raycast theme](https://themes.ray.so?version=1&name=Zenith&author=Brian%20Kuzmanoski&authorUsername=britown&colors=%23161A1D,%23161A1D,%23B4BBC2,%23B4BBC2,%2361ABDA,%23DE6E7C,%23D68C67,%23D6B867,%2364B280,%2361ABDA,%239D86CE,%23CF86C1&appearance=dark&addToRaycast) and visit my [dotfiles repo](https://github.com/bkuzmanoski/dotfiles) for ports of this theme for **bat**, **btop**, **eza**, **Ghostty**, **micro**, and **zsh-syntax-highlighting**.
 
 ## Acknowledgments
 
