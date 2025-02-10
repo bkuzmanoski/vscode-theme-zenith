@@ -111,10 +111,6 @@ All of the theme-related and layout tweaks I use can be found in [suggested-sett
 },
 ```
 
-## Zenith theme for other apps
-
-Check out the matching [Raycast theme](https://themes.ray.so?version=1&name=Zenith&author=Brian%20Kuzmanoski&authorUsername=britown&colors=%23161A1D,%23161A1D,%23B4BBC2,%23B4BBC2,%2361ABDA,%23DE6E7C,%23D68C67,%23D6B867,%2364B280,%2361ABDA,%239D86CE,%23CF86C1&appearance=dark&addToRaycast) and visit my [dotfiles repo](https://github.com/bkuzmanoski/dotfiles) for ports of this theme for **bat**, **btop**, **eza**, **Ghostty**, **micro**, and **zsh-syntax-highlighting**.
-
 ## Acknowledgments
 
 The syntax highlighting colors were inspired by the "zenwritten_dark" Ghostty theme ([mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)) which was in turn taken from [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim).
