@@ -3,8 +3,9 @@
   <h1>Zenith Theme for VS Code</h1>
   <p>
     <strong>A refined dark theme with cohesive colors and complete UI coverage.</strong>
+    <br> Comes in 💙 blue-tinted and 🩶 neutral variants.
     <br>
-    Check out the ⭐ light theme ⭐ here: <a href="https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-meridian">Meridian Theme for VS Code</a>.
+    Check out the 🌝 light theme here: <a href="https://marketplace.visualstudio.com/items?itemName=britown.vscode-theme-meridian">Meridian Theme for VS Code</a>.
   </p>
   <br>
 </div>

@@ -1,6 +1,6 @@
 {
   "name": "vscode-theme-zenith",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "displayName": "Zenith Theme",
   "description": "A refined dark theme with cohesive colors and complete UI coverage.",
   "publisher": "britown",
@@ -20,6 +20,11 @@
         "label": "Zenith",
         "uiTheme": "vs-dark",
         "path": "./themes/color-theme.json"
+      },
+      {
+        "label": "Zenith Neutral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme-neutral.json"
       }
     ],
     "iconThemes": [
