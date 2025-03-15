@@ -402,7 +402,7 @@
     "editorCursor.foreground": "#bbbbbb",
     "editorError.foreground": "#de6e7c",
     "editorGhostText.foreground": "#6e6e6e",
-    "editorGroup.border": "#191919",
+    "editorGroup.border": "#090909",
     "editorGroup.dropBackground": "#61abda20",
     "editorGroupHeader.border": "#191919",
     "editorGroupHeader.tabsBackground": "#292929",
