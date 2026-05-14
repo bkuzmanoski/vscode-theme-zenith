@@ -606,6 +606,7 @@
     "notifications.background": "#2f363b",
     "notifications.border": "#383f43",
     "notifications.foreground": "#b4bbc2",
+    "outputViewStickyScroll.background": "#242a2e",
     "panel.background": "#242a2e",
     "panel.border": "#101214",
     "panelInput.border": "#383f43",
